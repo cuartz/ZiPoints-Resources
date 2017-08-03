@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}</style><link href="Zipoints%20Archivos/css_002.css" rel="stylesheet" type="text/css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}</style>
+        
+        <!-- Title -->
+        <title>Zipoints</title>
+        
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta charset="UTF-8">
+       
+        <!-- Styles -->
+        <link href="Zipoints%20Archivos/css.css" rel="stylesheet" type="text/css">
+        <link href="Zipoints%20Archivos/pace-theme-flash.css" rel="stylesheet">
+        <link href="Zipoints%20Archivos/uniform.css" rel="stylesheet">
+        <link href="Zipoints%20Archivos/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="Zipoints%20Archivos/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="Zipoints%20Archivos/simple-line-icons.css" rel="stylesheet" type="text/css">	
+        <link href="Zipoints%20Archivos/waves.css" rel="stylesheet" type="text/css">	
+        <link href="Zipoints%20Archivos/switchery.css" rel="stylesheet" type="text/css">
+        <link href="Zipoints%20Archivos/style.css" rel="stylesheet" type="text/css">	
+        <link href="Zipoints%20Archivos/component.css" rel="stylesheet" type="text/css">
+         <link href="Zipoints%20Archivos/ion.css" rel="stylesheet" type="text/css">
+        <link href="Zipoints%20Archivos/ion_002.css" rel="stylesheet" type="text/css">
+        
+        
+        <!-- Theme Styles -->
+        <link href="Zipoints%20Archivos/modern.css" rel="stylesheet" type="text/css">
+        <link href="Zipoints%20Archivos/custom.css" rel="stylesheet" type="text/css">
+        
+        <script style="" src="Zipoints%20Archivos/modernizr.js"></script>
+        
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    <script src="Zipoints%20Archivos/common.js" charset="UTF-8" type="text/javascript"></script><script src="Zipoints%20Archivos/map.js" charset="UTF-8" type="text/javascript"></script><script src="Zipoints%20Archivos/util.js" charset="UTF-8" type="text/javascript"></script><script src="Zipoints%20Archivos/onion.js" charset="UTF-8" type="text/javascript"></script><script src="Zipoints%20Archivos/stats.js" charset="UTF-8" type="text/javascript"></script><script src="Zipoints%20Archivos/controls.js" charset="UTF-8" type="text/javascript"></script><script src="Zipoints%20Archivos/marker.js" charset="UTF-8" type="text/javascript"></script></head>
+    <body class="page-header-fixed compact-menu page-horizontal-bar  pace-done"><div class="pace  pace-inactive"><div data-progress="99" data-progress-text="100%" style="transform: translate3d(100%, 0px, 0px);" class="pace-progress">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+        <div class="overlay"></div>
+        <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s1">
+            <h3><span class="pull-left">Conversaciones</span><a href="javascript:void(0);" class="pull-right" id="closeRight"><i class="fa fa-times"></i></a></h3>
+            <div style="position: relative; overflow: hidden; width: auto; height: 100%;" class="slimScrollDiv"><div style="overflow: hidden; width: auto; height: 100%;" class="slimscroll">
+                <a href="javascript:void(0);" class="showRight2"><img src="Zipoints%20Archivos/avatar2.png" alt=""><span>Sandra Rivera<small>Nos vemos en la noche bb?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="Zipoints%20Archivos/che_guevara.png" alt=""><span>Ernesto Guevara<small>Vere si puedo pero no se</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="Zipoints%20Archivos/avatar3.png" alt=""><span>Cristian del Toro<small>Otra copa?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="Zipoints%20Archivos/avatar5.png" alt=""><span>Adolfo Corral<small>Me gustas</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="Zipoints%20Archivos/avatar2.png" alt=""><span>Sandra Rivera<small>Ya vamonos Ernesto es nefasto</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="Zipoints%20Archivos/che_guevara.png" alt=""><span>Ernesto Guevara<small>No entiendo</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="Zipoints%20Archivos/avatar3.png" alt=""><span>Cristian del Toro<small>Que onda como estas?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="Zipoints%20Archivos/avatar5.png" alt=""><span>Adolfo Corral<small>Hecho ;D</small></span></a>
+            </div><div style="background: rgb(204, 204, 204) none repeat scroll 0% 0%; width: 7px; position: absolute; top: 0px; opacity: 0.3; display: none; border-radius: 0px; z-index: 99; right: 0px; height: 1021px;" class="slimScrollBar"></div><div style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 0px;" class="slimScrollRail"></div></div>
+		</nav>
+        <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+            <h3><span class="pull-left">Sandra Rivera</span> <a href="javascript:void(0);" class="pull-right" id="closeRight2"><i class="fa fa-angle-right"></i></a></h3>
+            <div style="position: relative; overflow: hidden; width: auto; height: 100%;" class="slimScrollDiv"><div style="overflow: hidden; width: auto; height: 100%;" class="slimscroll chat">
+                <div class="chat-item chat-item-left">
+                    <div class="chat-image">
+                        <img src="Zipoints%20Archivos/avatar2.png" alt="">
+                    </div>
+                    <div class="chat-message">
+                       Hola
+                    </div>
+                </div>
+                <div class="chat-item chat-item-right">
+                    <div class="chat-message">
+                        ¿Como Estas?
+                    </div>
+                </div>
+                <div class="chat-item chat-item-left">
+                    <div class="chat-image">
+                        <img src="Zipoints%20Archivos/avatar2.png" alt="">
+                    </div>
+                    <div class="chat-message">
+                        Bien
+                    </div>
+                </div>
+                <div class="chat-item chat-item-right">
+                    <div class="chat-message">
+                        que bueno
+                    </div>
+                </div>
+                <div class="chat-item chat-item-left">
+                    <div class="chat-image">
+                        <img src="Zipoints%20Archivos/avatar2.png" alt="">
+                    </div>
+                    <div class="chat-message">
+                        Gracias
+                    </div>
+                </div>
+                <div class="chat-item chat-item-right">
+                    <div class="chat-message">
+                       Nos vemos
+                    </div>
+                </div><div class="chat-item chat-item-right"><div class="chat-message">jj</div></div>
+            </div><div style="background: rgb(204, 204, 204) none repeat scroll 0% 0%; width: 7px; position: absolute; top: 0px; opacity: 0.3; display: none; border-radius: 0px; z-index: 99; right: 0px; height: 1021px;" class="slimScrollBar"></div><div style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 0px;" class="slimScrollRail"></div></div>
+            <div class="chat-write">
+                <form class="form-horizontal" action="javascript:void(0);">
+                    <input class="form-control" placeholder="Di algo!" type="text">
+                </form>
+            </div>
+		</nav>        <form class="search-form" action="#" method="GET">
+            <div class="input-group">
+                <input name="search" class="form-control search-input" placeholder="Buscar..." type="text">
+                <span class="input-group-btn">
+                    <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
+                </span>
+            </div><!-- Input Group -->
+        </form><!-- Search Form -->
+        <main class="page-content content-wrap">
+               <div class="navbar">
+                <div class="navbar-inner container">
+                    <div class="sidebar-pusher">
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic push-sidebar">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <div class="logo-box">
+                        <a href="http://198.12.148.209/%7Ewqtest/zipoints/index.php" class="logo-text"><img src="Zipoints%20Archivos/logo.png" alt="Zipoints"></a>
+                    </div><!-- Logo Box -->
+                    <div class="search-button">
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
+                    </div>
+                    <div class="topmenu-outer">
+                        <div class="top-menu">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li>		
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic toggle-fullscreen"><i class="fa fa-expand"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>	
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
+                                </li>
+                                <li class="dropdown">
+                                    <a aria-expanded="false" href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown"><i class="fa fa-envelope"></i><span class="badge badge-success pull-right">4</span></a>
+                                    <ul class="dropdown-menu title-caret dropdown-lg" role="menu">
+                                        <li><p class="drop-title">Tienes 4 nuevos  mensajes!</p></li>
+                                        <div style="position: relative; overflow: hidden; width: auto; height: 100%;" class="slimScrollDiv"><li style="overflow: hidden; width: auto; height: 100%;" class="dropdown-menu-list slimscroll messages">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online on"></div><img class="img-circle" src="Zipoints%20Archivos/avatar2.png" alt=""></div>
+                                                        <p class="msg-name">Sandra Rivera</p>
+                                                        <p class="msg-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                                                        <p class="msg-time">hace 1 minuto </p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online off"></div><img class="img-circle" src="Zipoints%20Archivos/avatar3.png" alt=""></div>
+                                                        <p class="msg-name">Cristian del Toro</p>
+                                                        <p class="msg-text"> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p class="msg-time">hace 6 horas</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online on"></div><img class="img-circle" src="Zipoints%20Archivos/avatar5.png" alt=""></div>
+                                                        <p class="msg-name">Adolfo Corral</p>
+                                                        <p class="msg-text">Lorem ipsum dolor sit amet!!</p>
+                                                        <p class="msg-time">hace 2 horas</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online on"></div><img class="img-circle" src="Zipoints%20Archivos/avatar2.png" alt=""></div>
+                                                        <p class="msg-name">Sandra Rivera</p>
+                                                        <p class="msg-text">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                        </p>
+                                                        <p class="msg-time">5 hours ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li><div style="background: rgb(204, 204, 204) none repeat scroll 0% 0%; width: 7px; position: absolute; top: 0px; opacity: 0.3; display: none; border-radius: 0px; z-index: 99; right: 0px; height: 271.084px;" class="slimScrollBar"></div><div style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 0px;" class="slimScrollRail"></div></div>
+                                        <li class="drop-all"><a href="#" class="text-center">Todos los mensajes</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a aria-expanded="false" href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-success pull-right">3</span></a>
+                                    <ul class="dropdown-menu title-caret dropdown-lg" role="menu">
+                                        <li><p class="drop-title">Centro de Actividades</p></li>
+                                        <div style="position: relative; overflow: hidden; width: auto; height: 100%;" class="slimScrollDiv"><li style="overflow: hidden; width: auto; height: 100%;" class="dropdown-menu-list slimscroll tasks">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="task-icon badge badge-success"><i class="icon-user"></i></div>
+                                                        <span class="badge badge-roundless badge-default pull-right">hace 1 min</span>
+                                                        <p class="task-details">Notifición 1</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="task-icon badge badge-danger"><i class="icon-energy"></i></div>
+                                                        <span class="badge badge-roundless badge-default pull-right">hace 24 min</span>
+                                                        <p class="task-details">Notifición 2</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="task-icon badge badge-info"><i class="icon-heart"></i></div>
+                                                        <span class="badge badge-roundless badge-default pull-right">hace 1 hora</span>
+                                                        <p class="task-details">Notifición 3</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li><div style="background: rgb(204, 204, 204) none repeat scroll 0% 0%; width: 7px; position: absolute; top: 0px; opacity: 0.3; display: none; border-radius: 0px; z-index: 99; right: 0px; height: 156px;" class="slimScrollBar"></div><div style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 0px;" class="slimScrollRail"></div></div>
+                                        <li class="drop-all"><a href="#" class="text-center">Todas las Actividades</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
+                                        <span class="user-name">Ernesto Guevara<i class="fa fa-angle-down"></i></span>
+                                        <img class="img-circle avatar" src="Zipoints%20Archivos/che_guevara.png" alt="" height="40" width="40">
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-list" role="menu">
+                                        <li role="presentation"><a href="http://198.12.148.209/%7Ewqtest/zipoints/login.html"><i class="fa fa-sign-out m-r-xs"></i>Cerrar Sesión</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic" id="showRight">
+                                        <i class="fa fa-comments"></i>
+                                    </a>
+                                </li>
+                            </ul><!-- Nav -->
+                        </div><!-- Top Menu -->
+                    </div>
+                </div>
+            </div><!-- Navbar --><div class="page-sidebar sidebar horizontal-bar">
+                <div class="page-sidebar-inner">
+                    <ul class="menu accordion-menu">
+                        <li class="nav-heading"><span>Navigation</span></li>
+                       
+                        <li><a href="http://198.12.148.209/%7Ewqtest/zipoints/index.php"><span class="menu-icon icon-user"></span><p>Perfil</p></a></li>
+                        
+                       
+                       
+                       
+                        
+                        <li><a href="http://198.12.148.209/%7Ewqtest/zipoints/formulario.php"><span class="menu-icon icon-note"></span><p>Formulario</p></a></li>
+                       
+                        
+                        <li><a href="http://198.12.148.209/%7Ewqtest/zipoints/mapa.php"><span class="menu-icon icon-pointer"></span><p>Mapa</p></a></li>
+                        
+                    </ul>
+                </div><!-- Page Sidebar Inner -->
+            </div><!-- Page Sidebar -->            <div style="min-height:51px !important" class="page-inner">
+                <div class="profile-cover">
+                    <div class="container">
+                        <div class="col-md-12 profile-info">
+                            <div class="profile-info-value">
+                                <h3>1020</h3>
+                                <p>Lugares</p>
+                            </div>
+                            <div class="profile-info-value">
+                                <h3>1780</h3>
+                                <p>Amigos</p>
+                            </div>
+                            <div class="profile-info-value">
+                                <h3>260</h3>
+                                <p>Fotos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-wrapper" class="container">
+                    <div class="row">
+                        <div class="col-md-3 user-profile">
+                            <div class="profile-image-container">
+                                <img src="Zipoints%20Archivos/che_guevara.png" alt="">
+                            </div>
+                            <h3 class="text-center">Ernesto Guevara</h3>
+                            <p class="text-center">Revolucionario</p>
+                            <hr>
+                            <ul class="list-unstyled text-center">
+                                <li><p><i class="fa fa-map-marker m-r-xs"></i>Durango, Durango</p></li>
+                                <li><p><i class="fa fa-envelope m-r-xs"></i><a href="#">ejemplo@correo.com</a></p></li>
+                                <li><p><i class="fa fa-link m-r-xs"></i><a href="#">www.facebook.com</a></p></li>
+                            </ul>
+                            <hr>
+                            <button class="btn btn-primary btn-block"><i class="fa fa-plus m-r-xs"></i>Seguir</button>
+                        </div>
+                        <div class="col-md-6 m-t-lg">
+                            <div class="panel panel-white">
+                                <div class="panel-body">
+                                    <div class="post">
+                                        <textarea class="form-control" placeholder="Publicar" rows="4=6"></textarea>
+                                        <div class="post-options">
+                                            <a href="#"><i class="icon-camera"></i></a>
+                                            <a href="#"><i class="icon-camcorder"></i></a>
+                                            <a href="#"><i class="icon-music-tone-alt"></i></a>
+                                            <a href="#"><i class="icon-link"></i></a>
+                                            <a href="#"><i class="icon-microphone"></i></a>
+                                            <button class="btn btn-default pull-right">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-timeline">
+                                <ul class="list-unstyled">
+                                    <li class="timeline-item">
+                                        <div class="panel panel-white">
+                                            <div class="panel-body">
+                                                <div class="timeline-item-header">
+                                                    <img src="Zipoints%20Archivos/avatar3.png" alt="">
+                                                    <p>Cristian del Toro <span>Visitó 4 lugares</span></p>
+                                                    <small>hace 5 horas</small>
+                                                </div>
+                                                <div class="timeline-item-post">
+                                                    <div class="form-group">
+                                                        <span class="irs js-irs-0 irs-with-grid"><span class="irs"><span class="irs-line" tabindex="-1"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span style="visibility: visible;" class="irs-min">Paseo Duango</span><span style="visibility: visible;" class="irs-max">Centro Historico</span><span style="visibility: hidden;" class="irs-from">0</span><span style="visibility: hidden;" class="irs-to">0</span><span style="left: 26.0559%;" class="irs-single">El Pueblito Dgo</span></span><span style="width: 96.8811%; left: 1.45945%;" class="irs-grid"><span class="irs-grid-pol" style="left: 0%"></span><span class="irs-grid-text js-grid-text-0" style="left: 0%; margin-left: -6.23782%;">Paseo Duango</span><span class="irs-grid-pol small" style="left: 26.66666%"></span><span class="irs-grid-pol small" style="left: 20%"></span><span class="irs-grid-pol small" style="left: 13.33333%"></span><span class="irs-grid-pol small" style="left: 6.66667%"></span><span class="irs-grid-pol" style="left: 33.33333%"></span><span class="irs-grid-text js-grid-text-1" style="left: 33.3333%; visibility: visible; margin-left: -6.72515%;">El Pueblito Dgo</span><span class="irs-grid-pol small" style="left: 59.99999%"></span><span class="irs-grid-pol small" style="left: 53.33333%"></span><span class="irs-grid-pol small" style="left: 46.66666%"></span><span class="irs-grid-pol small" style="left: 40%"></span><span class="irs-grid-pol" style="left: 66.66666%"></span><span class="irs-grid-text js-grid-text-2" style="left: 66.6667%; visibility: visible; margin-left: -6.62768%;">Plaza de Armas</span><span class="irs-grid-pol small" style="left: 93.33332%"></span><span class="irs-grid-pol small" style="left: 86.66666%"></span><span class="irs-grid-pol small" style="left: 79.99999%"></span><span class="irs-grid-pol small" style="left: 73.33333%"></span><span class="irs-grid-pol" style="left: 99.99999%"></span><span class="irs-grid-text js-grid-text-3" style="left: 100%; visibility: visible; margin-left: -7.11501%;">Centro Historico</span></span><span style="left: 1.55946%; width: 32.2937%;" class="irs-bar"></span><span class="irs-bar-edge"></span><span style="display: none;" class="irs-shadow shadow-single"></span><span style="left: 32.2937%;" class="irs-slider single"></span></span><input value="El Pueblito Dgo" readonly="readonly" class="irs-hidden-input" id="range_06" type="text">
+                                                    </div>
+                                                    <div class="timeline-options">
+                                                        <a href="#"><i class="icon-like"></i> Me gusta (7)</a>
+                                                        <a href="#"><i class="icon-bubble"></i> Comentarios (2)</a>
+                                                        <a href="#"><i class="icon-share"></i> Compartido (3)</a>
+                                                    </div>
+                                                    <div class="timeline-comment">
+                                                        <div class="timeline-comment-header">
+                                                            <img src="Zipoints%20Archivos/avatar5.png" alt="">
+                                                            <p>Adolfo Corral <small>hace 1 hora</small></p>
+                                                        </div>
+                                                        <p class="timeline-comment-text">Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                                                    </div>
+                                                    <div class="timeline-comment">
+                                                        <div class="timeline-comment-header">
+                                                            <img src="Zipoints%20Archivos/avatar2.png" alt="">
+                                                            <p>Sandra Rivera <small>hace 3 horas</small></p>
+                                                        </div>
+                                                        <p class="timeline-comment-text">Nullam
+ quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque 
+penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                                    </div>
+                                                    <textarea class="form-control" placeholder="Contestar"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="panel panel-white">
+                                            <div class="panel-body">
+                                                <div class="timeline-item-header">
+                                                    <img src="Zipoints%20Archivos/avatar2.png" alt="">
+                                                    <p>Sandra Rivera <span>Subió una foto</span></p>
+                                                    <small>hace 2 horas</small>
+                                                </div>
+                                                <div class="timeline-item-post">
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                                                    <img src="Zipoints%20Archivos/post-image.jpg" alt="">
+                                                    <div class="timeline-options">
+                                                        <a href="#"><i class="icon-like"></i> Me gusta (14)</a>
+                                                        <a href="#"><i class="icon-bubble"></i> Comentarios (1)</a>
+                                                        <a href="#"><i class="icon-share"></i> Compartido (5)</a>
+                                                    </div>
+                                                    <div class="timeline-comment">
+                                                        <div class="timeline-comment-header">
+                                                            <img src="Zipoints%20Archivos/avatar5.png" alt="">
+                                                            <p>Adolfo Corral <small>hace 1 horas</small></p>
+                                                        </div>
+                                                        <p class="timeline-comment-text">Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                                                    </div>
+                                                    <textarea class="form-control" placeholder="Contestar"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <div class="panel panel-white">
+                                            <div class="panel-body">
+                                                <div class="timeline-item-header">
+                                                    <img src="Zipoints%20Archivos/avatar5.png" alt="">
+                                                    <p>Adolfo Corral <span>Estuvo en Bar Modelo</span></p>
+                                                    <small>hace 6 horas</small>
+                                                </div>
+                                                <div class="timeline-item-post">
+                                                    <div id="map-canvas" style="height: 200px; width: 100%; position: relative; background-color: rgb(229, 227, 223); overflow: hidden;"><div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default;"><div style="position: absolute; left: 467px; top: 41px; z-index: 1; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; position: absolute; left: 81px; top: -220px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 81px; top: 36px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -175px; top: -220px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -175px; top: 36px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -431px; top: 36px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -431px; top: -220px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -687px; top: -220px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -687px; top: 36px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 81px; top: -220px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 81px; top: 36px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -175px; top: -220px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -175px; top: 36px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -431px; top: 36px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -431px; top: -220px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -687px; top: -220px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -687px; top: 36px;"></div></div></div></div><div style="position: absolute; z-index: 0; left: 0px; top: 0px;"><div style="overflow: hidden; width: 513px; height: 200px;"><img src="Zipoints%20Archivos/StaticMapService.png" style="width: 513px; height: 200px;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="position: absolute; left: 81px; top: -220px; width: 256px; height: 256px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="Zipoints%20Archivos/vt_007.png" style="-moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; width: 256px; height: 256px;"></div><div style="position: absolute; left: 81px; top: 36px; width: 256px; height: 256px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="Zipoints%20Archivos/vt_005.png" style="-moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; width: 256px; height: 256px;"></div><div style="position: absolute; left: -175px; top: -220px; width: 256px; height: 256px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="Zipoints%20Archivos/vt_008.png" style="-moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; width: 256px; height: 256px;"></div><div style="position: absolute; left: -175px; top: 36px; width: 256px; height: 256px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="Zipoints%20Archivos/vt_006.png" style="-moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; width: 256px; height: 256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -431px; top: 36px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="Zipoints%20Archivos/vt_004.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -431px; top: -220px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="Zipoints%20Archivos/vt.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -687px; top: -220px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="Zipoints%20Archivos/vt_002.png" style="-moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; width: 256px; height: 256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -687px; top: 36px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="Zipoints%20Archivos/vt_003.png" style="-moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; width: 256px; height: 256px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%;"></div><div style="position: absolute; left: 467px; top: 41px; z-index: 3; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a title="Haz clic para ver esta área en Google Maps" href="https://maps.google.com/maps?ll=24.025513,-104.690224&amp;z=15&amp;t=m&amp;hl=es-MX&amp;gl=US&amp;mapclient=apiv3" target="_blank" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 62px; height: 26px; cursor: pointer;"><img draggable="false" src="Zipoints%20Archivos/google_white2_hdpi.png" style="position: absolute; left: 0px; top: 0px; width: 62px; height: 26px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div></a></div><div style="z-index: 1000001; position: absolute; right: 259px; bottom: 0px; width: 178px;" class="gmnoprint"><div class="gm-style-cc" style="-moz-user-select: none;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Datos del mapa</a><span style="">Datos del mapa ©2015 Google, INEGI</span></div></div></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto,Arial,sans-serif; color: rgb(34, 34, 34); box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 107px; top: 10px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Datos del mapa</div><div style="font-size: 13px;">Datos del mapa ©2015 Google, INEGI</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img draggable="false" src="Zipoints%20Archivos/mapcnt6.png" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div></div><div style="position: absolute; right: 0px; bottom: 0px;" class="gmnoscreen"><div style="font-family: Roboto,Arial,sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Datos del mapa ©2015 Google, INEGI</div></div><div draggable="false" style="z-index: 1000001; position: absolute; -moz-user-select: none; right: 139px; bottom: 0px;" class="gmnoprint gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a target="_blank" href="https://www.google.com/intl/es-MX_US/help/terms_maps.html" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Condiciones del servicio</a></div></div><div class="gm-style-cc" style="-moz-user-select: none; position: absolute; right: 0px; bottom: 0px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a href="https://www.google.com/maps/@24.0255131,-104.6902245,15z/data=%2110m1%211e1%2112b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;" title="Informar a Google errores en las imágenes o el mapa de carreteras." target="_new">Informar un error en el mapa</a></div></div><div controlheight="84" controlwidth="32" draggable="false" style="margin: 5px; -moz-user-select: none; position: absolute; left: 0px; top: 0px;" class="gmnoprint"><div style="cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; position: absolute; left: 0px; top: 0px;" controlheight="40" controlwidth="32"><div aria-label="Control del hombrecito naranja en Street View" style="width: 32px; height: 40px; overflow: hidden; position: absolute; left: 0px; top: 0px;"><img draggable="false" src="Zipoints%20Archivos/cb_scout2_hdpi.png" style="position: absolute; left: -9px; top: -102px; width: 1028px; height: 214px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div aria-label="El hombrecito naranja está inhabilitado." style="width: 32px; height: 40px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img draggable="false" src="Zipoints%20Archivos/cb_scout2_hdpi.png" style="position: absolute; left: -107px; top: -102px; width: 1028px; height: 214px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div aria-label="El hombrecito naranja está en la parte superior del mapa." style="width: 32px; height: 40px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img draggable="false" src="Zipoints%20Archivos/cb_scout2_hdpi.png" style="position: absolute; left: -58px; top: -102px; width: 1028px; height: 214px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div aria-label="Control del hombrecito naranja en Street View" style="width: 32px; height: 40px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img draggable="false" src="Zipoints%20Archivos/cb_scout2_hdpi.png" style="position: absolute; left: -205px; top: -102px; width: 1028px; height: 214px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div></div><div controlheight="0" controlwidth="0" style="opacity: 0.6; display: none; position: absolute;" class="gmnoprint"><div title="Rotar mapa 90 grados" style="width: 22px; height: 22px; overflow: hidden; position: absolute; cursor: pointer;"><img draggable="false" src="Zipoints%20Archivos/mapcnt6_hdpi.png" style="position: absolute; left: -38px; top: -360px; width: 59px; height: 492px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div></div><div style="position: absolute; left: 6px; top: 45px;" controlheight="39" controlwidth="20" class="gmnoprint"><div style="width: 20px; height: 39px; overflow: hidden; position: absolute;"><img draggable="false" src="Zipoints%20Archivos/mapcnt6_hdpi.png" style="position: absolute; left: -39px; top: -401px; width: 59px; height: 492px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div title="Acercar" style="position: absolute; left: 0px; top: 2px; width: 20px; height: 17px; cursor: pointer;"></div><div title="Alejar" style="position: absolute; left: 0px; top: 19px; width: 20px; height: 17px; cursor: pointer;"></div></div></div><div style="margin: 5px; z-index: 0; position: absolute; cursor: pointer; right: 0px; top: 0px;" class="gmnoprint"><div class="gm-style-mtc" style="float: left;"><div title="Mostrar mapa de calles" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 1px 6px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; border: 1px solid rgba(0, 0, 0, 0.15); box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); min-width: 30px; font-weight: 500;">Mapa</div><div style="background-color: white; z-index: -1; padding-top: 2px; background-clip: padding-box; border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); position: absolute; left: 0px; top: 20px; text-align: left; display: none;"><div title="Mostrar mapa de calles con relieve" draggable="false" style="color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 3px 8px 3px 3px; direction: ltr; text-align: left; white-space: nowrap;"><span style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;" role="checkbox"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img draggable="false" src="Zipoints%20Archivos/imgs8.png" style="position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Relieve</label></div></div></div><div class="gm-style-mtc" style="float: left;"><div title="Mostrar imágenes satelitales" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 1px 6px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; border-width: 1px 1px 1px 0px; border-style: solid solid solid none; border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); min-width: 38px;">Satélite</div><div style="background-color: white; z-index: -1; padding-top: 2px; background-clip: padding-box; border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); position: absolute; right: 0px; top: 20px; text-align: left; display: none;"><div title="Acerca para mostrar la vista de 45 grados" draggable="false" style="color: rgb(184, 184, 184); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 3px 8px 3px 3px; direction: ltr; text-align: left; white-space: nowrap; display: none;"><span style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(241, 241, 241); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;" role="checkbox"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img draggable="false" src="Zipoints%20Archivos/imgs8.png" style="position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">45°</label></div><div title="Mostrar imágenes con nombres de calles" draggable="false" style="color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 3px 8px 3px 3px; direction: ltr; text-align: left; white-space: nowrap;"><span style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;" role="checkbox"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img draggable="false" src="Zipoints%20Archivos/imgs8.png" style="position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Etiquetas</label></div></div></div></div></div></div>
+                                                    <div class="timeline-options">
+                                                        <a href="#"><i class="icon-like"></i> Me gusta (3)</a>
+                                                        <a href="#"><i class="icon-bubble"></i> Comentarios (0)</a>
+                                                        <a href="#"><i class="icon-share"></i> Compartido (2)</a>
+                                                    </div>
+                                                    <textarea class="form-control" placeholder="Escribe un comentario..."></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-t-lg">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <div class="panel-title">Contactos</div>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="team">
+                                        <div class="team-member">
+                                           <div class="online on"></div>
+                                            <img src="Zipoints%20Archivos/avatar1.png" alt="">
+                                        </div>
+                                        <div class="team-member">
+                                           <div class="online off"></div>
+                                            <img src="Zipoints%20Archivos/avatar2.png" alt="">
+                                        </div>
+                                        <div class="team-member">
+                                           <div class="online on"></div>
+                                            <img src="Zipoints%20Archivos/avatar3.png" alt="">
+                                        </div>
+                                        <div class="team-member">
+                                           <div class="online on"></div>
+                                            <img src="Zipoints%20Archivos/avatar5.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <div class="panel-title">BIO</div>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Nullam quis risus eget urna 
+mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis 
+parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh 
+ultricies vehicula.</p>
+                                </div>
+                            </div>
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <div class="panel-title">GUSTOS</div>
+                                </div>
+                                <div class="panel-body">
+                                    <p>BARES</p>
+                                    <div class="progress progress-xs">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                    <p>MUSEOS</p>
+                                    <div class="progress progress-xs">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        </div>
+                                    </div>
+                                    <p>RESTAURANTES</p>
+                                    <div class="progress progress-xs">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-footer">
+                    <div class="container">
+                        <p class="no-s">2015 © Todos los Derechos Reservados Para Zipoints</p>
+                    </div>
+                </div>
+            </div><!-- Page Inner -->
+        </main><!-- Page Content -->
+        
+        <div class="cd-overlay"></div>
+	
+
+        <!-- Javascripts -->
+        <script src="Zipoints%20Archivos/jquery-2.js"></script>
+        <script src="Zipoints%20Archivos/jquery-ui.js"></script>
+        <script src="Zipoints%20Archivos/pace.js"></script>
+        <script src="Zipoints%20Archivos/jquery_003.js"></script>
+        <script src="Zipoints%20Archivos/bootstrap.js"></script>
+        <script src="Zipoints%20Archivos/jquery_002.js"></script>
+        <script src="Zipoints%20Archivos/switchery.js"></script>
+        <script src="Zipoints%20Archivos/jquery.js"></script>
+        <script src="Zipoints%20Archivos/classie.js"></script>
+        <script src="Zipoints%20Archivos/waves.js"></script>
+        <script src="Zipoints%20Archivos/main.js"></script>
+        <script src="Zipoints%20Archivos/modern.js"></script>
+        <script type="text/javascript" src="Zipoints%20Archivos/js.js"></script><script src="Zipoints%20Archivos/main_002.js"></script>
+        <script src="Zipoints%20Archivos/profile.js"></script>
+        <script src="Zipoints%20Archivos/ion.js"></script>
+      
+        <script src="Zipoints%20Archivos/ui-sliders.js"></script>
+        
+    
+</body></html>

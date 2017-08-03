@@ -1,1 +1,2 @@
-# ZiPoints-Resources
+# zipoints
+zipoints projects related files
